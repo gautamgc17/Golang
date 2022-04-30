@@ -47,7 +47,7 @@ func checkDomain(domain string) {
 
 	fmt.Printf("SPF Records: %v \n", spfRecords)
 	for _, record := range spfRecords {
-		fmt.Println(record)
+// 		fmt.Println(record)
 		if strings.HasPrefix(record, "v=spf1") {
 			hasSPF = true
 			spfRecord = record
