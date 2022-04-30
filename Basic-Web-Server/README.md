@@ -1,4 +1,4 @@
-## Basic Web Server with Golang
+## Simple Http Web Server with Golang
 
 1. '/' -> index.html
 2. '/hello' -> hello func
